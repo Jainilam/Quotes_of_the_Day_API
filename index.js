@@ -1,5 +1,6 @@
 const express = require("express");
 const cron = require("node-cron");
+const cors = require('cors')
 const app = express();
 const port = 3000;
 
