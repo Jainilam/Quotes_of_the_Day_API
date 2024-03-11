@@ -386,7 +386,7 @@ cron.schedule("0 0 * * *", () => {
 
 // Endpoint to get the current quote of the day
 app.get("/", (req, res) => {
-  res.json({ quote: quoteOfTheDay });
+  res.json({ QuotesofTheDay: quoteOfTheDay });
 });
 
 app.listen(port, () => {
