@@ -4,6 +4,8 @@ const cors = require('cors')
 const app = express();
 const port = 3000;
 
+app.use(cors());
+
 // Define the array of quotes for the day
 const quotesOfTheDay = [
   "Embrace the journey, for every step forward is progress.",
